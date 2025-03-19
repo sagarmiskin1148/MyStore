@@ -1,0 +1,53 @@
+# Created at 2025-03-19T20:18:13.856
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readFully(DataInputStream.java:210)
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:385)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+
+# Created at 2025-03-19T20:18:14.778
+Unexpected IOException with stream: Mar 19, 2025 8:18:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 134
+
+
+# Created at 2025-03-19T20:18:14.793
+Unexpected IOException with stream: Mar 19, 2025 8:18:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 134.0.6998.89. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.19.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+
+
+# Created at 2025-03-19T20:18:14.793
+Unexpected IOException with stream: [INFO ] 2025-03-19 20:18:14.793 [main] BaseClass - Chrome Browser Launched Successfully
+
+
+# Created at 2025-03-19T20:18:16.301
+Unexpected IOException with stream: [INFO ] 2025-03-19 20:18:16.301 [main] BaseClass - Navigated to: http://www.automationpractice.pl
+
+
+# Created at 2025-03-19T20:18:16.309
+Unexpected IOException: 5,1,com.mystore.testcases.TC_ProductPageTest,VerifyBuyProduct(com.mystore.testcases.TC_ProductPageTest),com.mystore.testcases.TC_ProductPageTest,null,null
+
+
+# Created at 2025-03-19T20:18:16.317
+Unexpected IOException with stream: Starting Test: VerifyBuyProduct
+
+
+# Created at 2025-03-19T20:18:16.332
+Unexpected IOException with stream: [INFO ] 2025-03-19 20:18:16.330 [main] BaseClass - 
+***************TestCase Buy Product started*****************
+
+
+# Created at 2025-03-19T20:18:16.363
+Unexpected IOException with stream: Test Failed: VerifyBuyProduct
+
+
+# Created at 2025-03-19T20:18:16.383
+Unexpected IOException with stream: Test Failed: VerifyBuyProduct
+
+
+# Created at 2025-03-19T20:18:16.410
+Unexpected IOException with stream: Flushing Extent Report...
+
+
